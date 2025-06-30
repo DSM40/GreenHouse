@@ -1,7 +1,7 @@
 clc; clear; close all;
 
 % Ruta de la carpeta con las imágenes
-ruta_carpeta = 'C:\Users\moren\Documents\Doctorado\imagenes acelgas\CAP2203LR'; % Asegúrate de cambiar esto
+ruta_carpeta = ''; % Image address
 archivos = dir(fullfile(ruta_carpeta, '*.jpg')); % Filtrar imágenes .jpg
 
 % Relación píxeles/cm² (ajusta con tu calibración)
